@@ -1,6 +1,6 @@
 # Bloom
 
-Bloom is an innovative mobile application designed to provide personalized skincare advice based on advanced image analysis. Users can capture images of their skin, and Bloom will analyze the images to determine the user's skin type and condition, offering tailored skincare recommendations.
+Bloom is an innovative application designed to provide personalized skincare advice based on advanced image analysis. Users can capture images of their skin, and Bloom will analyze the images to determine the user's skin type and condition, offering tailored skincare recommendations.
 
 ## Features
 
@@ -11,10 +11,9 @@ Bloom is an innovative mobile application designed to provide personalized skinc
 
 ## Tech Stack
 
-- **Frontend:** Developed using React Native for cross-platform compatibility.
+- **Frontend:** Developed using HTML and CSS for cross-platform compatibility.
 - **Image Analysis:** Leveraged machine learning techniques and computer vision algorithms for skin analysis.
-- **Backend:** Utilized Node.js and Express.js for the backend server, with MongoDB as the database.
-- **Deployment:** Deployed the backend on cloud platforms like AWS or Heroku for scalability and reliability.
+- **Backend:** Utilized flask for the backend server, with MySql as the database.
 
 ## Installation
 
@@ -22,8 +21,8 @@ To run Bloom locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/Varad22/bloom.git`
 2. Navigate to the project directory: `cd bloom`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Start the Flask server: `python app.py`
 
 ## Contributing
 
